@@ -21,7 +21,7 @@
                 initialView: 'dayGridMonth',
                 events: async function (fetchInfo, successCallback, failureCallback) {
                     try {
-                        let response = await fetch('https://example.com/calendar.ics'); // Change this URL
+                        let response = await fetch('https://meenindia.github.io/calendarhub/calendars/base/samvat_vikram.ics'); // Change this URL
                         let data = await response.text();
                         let jcalData = ICAL.parse(data);
                         let comp = new ICAL.Component(jcalData);
