@@ -11,10 +11,11 @@ UID:2082-01-1-1@vikram_samvat
 DTSTART;VALUE=DATE:20250330
 DTEND;VALUE=DATE:20250331
 SUMMARY:चैत्र - शुक्ल - १ (प्रतिपदा)
-DESCRIPTION:संवत: २०८२
-माह: चैत्र
-तिथि: शुक्ल प्रतिपदा
+DESCRIPTION:संवत: २०८२\n
+ माह: चैत्र\n
+ तिथि: शुक्ल प्रतिपदा\n
 STATUS:CONFIRMED
+SEQUENCE:1
 END:VEVENT
 
 BEGIN:VEVENT
@@ -126,10 +127,11 @@ UID:2082-02-0-1@vikram_samvat
 DTSTART;VALUE=DATE:20250413
 DTEND;VALUE=DATE:20250415
 SUMMARY:वैशाख - कृष्ण - १ (प्रतिपदा)
-DESCRIPTION:संवत: २०८२
-माह: वैशाख
-तिथि: कृष्ण प्रतिपदा
+DESCRIPTION:संवत: २०८२\n
+ माह: वैशाख\n
+ तिथि: कृष्ण प्रतिपदा\n
 STATUS:CONFIRMED
+SEQUENCE:1
 END:VEVENT
 
 END:VCALENDAR
