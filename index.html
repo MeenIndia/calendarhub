@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ICS Calendar Loader</title>
-    <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/main.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/main.min.js"></script>
+    <title>Calendar</title>
+    <link href="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ical.js/1.4.0/ical.min.js"></script>
     <style>
         body { font-family: Arial, sans-serif; }
@@ -21,7 +21,7 @@
                 initialView: 'dayGridMonth',
                 events: async function (fetchInfo, successCallback, failureCallback) {
                     try {
-                        let response = await fetch('https://meenindia.github.io/calendarhub/calendars/base/samvat_vikram.ics'); // Change this URL
+                        let response = await fetch('https://example.com/calendar.ics'); // Change this URL
                         let data = await response.text();
                         let jcalData = ICAL.parse(data);
                         let comp = new ICAL.Component(jcalData);
