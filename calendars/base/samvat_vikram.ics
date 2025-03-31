@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+PRODID:-//MeenIndia//Calendars//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+METHOD:PUBLISH
+X-WR-CALNAME:Vikram Samvat
+X-WR-TIMEZONE:Asia/Kolkata
+
+BEGIN:VEVENT
+UID:2082-chaitra-shukla-pratipada@vikram_samvat
+DTSTART;VALUE=DATE:20250330
+DTEND;VALUE=DATE:20250331
+SUMMARY:२०८५ - चैत्र - शुक्ल - १ (प्रतिपदा)
+DESCRIPTION:आज का दिन विक्रम संवत के अनुसार संवत २०८५ का पहला दिन।
+STATUS:CONFIRMED
+END:VEVENT
+
+END:VCALENDAR
